@@ -2,16 +2,54 @@ var bio = {
     "name": "Albus Percival Wulfric Brian Dumbledore",
     "role": "Order of Merlin, First Class, Grand Sorc., Chf. Warlock, Supreme Mugwump, International Confed. of Wizards",
     "contacts": {
-        "wand": "Elder Wand",
+        "mobile": "6333333",
+        "email": "albus@gmail.com",
+        "github": "albus",
+        "twitter": "@albus",
         "location": "England",
-        "affinity": "fire"
+        "wand": "Elder Wand",
+        "affinity": "fire",
     },
-    "biopic": "images/albus.jpg",
     "welcomeMessage": `Albus Dumbledore was considered to be the most powerful
    wizard of his time. He was most famous for his defeat of Gellert
    Grindelwald, the discovery of the twelve uses of dragon's blood, and his
    work on alchemy with Nicolas Flamel.`,
-    "skills": ["Magical mastery", "Intellectual genius", "Invisibility", "Occlumency", "Non-verbal magic", "Potioneer", "Charms", "Flying"]
+    "skills": ["Magical mastery", "Intellectual genius", "Invisibility", "Occlumency", "Non-verbal magic", "Potioneer", "Charms", "Flying"],
+    "biopic": "images/albus.jpg"
+};
+
+var education = {
+    "schools": [{
+            "name": "Hogwarts School of Witchcraft and Wizardry",
+            "location": "Scotland",
+            "degree": "Auror",
+            "majors": ["Ofensive spells", "Defensive spells", "Potions"],
+            "dates": "1975-1985",
+            "url": "www.harrypotter.com"
+        },
+        {
+            "name": "Ilvermorny School of Witchcraft and Wizardry",
+            "location": "Massachusetts, United States of America",
+            "degree": "Psychology of muggels",
+            "majors": ["Biology", "Psychology", "Advanced spells"],
+            "dates": "1985-1989",
+            "url": "www.harrypotter.com"
+        }
+    ],
+    "onlineCourses": [{
+            "title": "JavaScript Basics",
+            "school": "Udacity",
+            "dates": "January 2015 - February 2015",
+            "url": "https://www.udacity.com/course/javascript-basics--ud804"
+        },
+        {
+            "title": "Programming Foundations with Python",
+            "school": "Udacity",
+            "dates": "June 2016 - July 2016",
+            "url": "https://www.udacity.com/course/programming-foundations-with-python--ud036"
+        }
+
+    ]
 };
 
 var work = {
@@ -53,34 +91,11 @@ var work = {
     ]
 };
 
-var education = {
-    "schools": [{
-            "name": "Hogwarts School of Witchcraft and Wizardry",
-            "location": "Scotland",
-            "degree": "Auror",
-            "major": "Ofensive spells",
-            "dates": "1979-1985"
-        },
-        {
-            "name": "Hogwarts School of Witchcraft and Wizardry",
-            "location": "Scotland",
-            "degree": "Auror",
-            "major": "Defensive spells",
-            "dates": "1979-1985"
-        },
-        {
-            "name": "Hogwarts School of Witchcraft and Wizardry",
-            "location": "Scotland",
-            "degree": "Auror",
-            "major": "Potions",
-            "dates": "1979-1985"
-        }
-    ]
-};
+
 
 var projects = {
     "projects": [{
-            "name": "Sectumsempra",
+            "title": "Sectumsempra",
             "dates": "1984-1990",
             "description": `A rather dangerous curse,
 		when the incantation is uttered its effect
@@ -90,16 +105,16 @@ var projects = {
 		the user's wand movements. Due to the depths of the cut,
 		the victims run the risk of dying from blood loss if treatment
 		 is not applied in time, if the wounds are not instantly fatal.`,
-            "image": "images/sectumsembra.jpg"
+            "images": ["images/sectumsembra.jpg"]
         },
 
         {
-            "name": "Deluminator",
+            "title": "Deluminator",
             "dates": "1981 or earlier",
             "description": `The Deluminator, also known as the Put-Outer, that
-		 remove light sources from the Deluminator\'s immediate surroundings
+		 removes light sources from the Deluminator\'s immediate surroundings
 		 ,as well as bestow them. It looks like a standard silver cigarette lighter.`,
-            "image": "images/deluminator.jpg"
+            "images": ["images/deluminator.jpg"]
         }
     ]
 };

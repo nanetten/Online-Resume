@@ -11,7 +11,12 @@ h5,
 h6 {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Amaranth', sans-serif;
+
+
+
+
+
 }
 .clear-fix {
     overflow: auto;
@@ -23,27 +28,28 @@ h6 {
 }
 h1 {
     font-size: 40px;
-    color: #f5a623;
+    color: #B95835;
     line-height: 48px;
     display: inline;
+      font-weight: bold;
 }
 h2 {
     font-weight: bold;
-    font-size: 24px;
-    color: #999;
+    font-size: 28px;
+
     line-height: 29px;
     padding: 10px;
 }
 h3 {
     font-style: italic;
     font-size: 20px;
-    color: #000;
+
     line-height: 22px;
 }
 h4 {
     font-weight: bold;
     font-size: 14px;
-    color: #4a4a4a;
+
     line-height: 17px;
 }
 h2,
@@ -51,6 +57,7 @@ h3,
 h4,
 h5 {
     padding: 10px 5%;
+    color: #E18942;
 }
 .date-text {
     font-style: italic;
@@ -67,32 +74,28 @@ h5 {
     float: right;
 }
 p {
-    font-size: 14px;
-    color: #333;
+    font-size: 15.5px;
+    color:  #EECD86;
     line-height: 21px;
 }
 a {
-    color: #1199c3;
+    font-size: 17px;
     text-decoration: none;
     margin-top: 10px;
     display: block;
+      font-weight: bold;
 }
 .welcome-message {
     font-style: italic;
     font-size: 18px;
-    color: #f3f3f3;
     line-height: 28px;
 }
 #skills-h3 {
-    color: #f5ae23;
+
     display: none;
 }
-.orange {
-    background-color: #f5ae23;
-}
-.orange-text {
-    color: #f5ae23;
-}
+
+
 .white-text {
     font-weight: bold;
     color: #fff;
@@ -107,9 +110,7 @@ a {
 }
 /* TODO: Replace with image later */
 
-#header {
-    background-color: #484848;
-}
+
 .flex-box {
     display: -webkit-flex;
     display: flex;
@@ -132,7 +133,7 @@ ul {
 }
 .biopic {
     float: left;
-    padding: 10px;
+    padding: 0;
     width: 200px;
     display: none;
 }
@@ -142,9 +143,51 @@ ul {
 }
 span {
     padding: 5px;
+    color: #EECD86;
 }
 #lets-connect {
     text-align: center;
+}
+/* Custom*/
+#mapDiv {
+  background-color:  #B95835;
+}
+
+img {
+
+  padding: 0;
+}
+.orange-text {
+    color: #E18942;
+}
+.oranger-text {
+    color: #B95835;
+}
+
+.red-text {
+  color:  #7A3E48;
+}
+.red {
+    background-color:   #7A3E48;
+}
+.yellow {
+    background-color: #EECD86;
+}
+.mate-text {
+  color: #3D3242;
+}
+
+.mate {
+  background-color: #3D3242;
+}
+.black-text {
+  color: black;
+}
+.grey-text {
+  color: grey;
+}
+.orange {
+  background-color: #E18942;
 }
 /* Media queries to handle various device widths */
 
