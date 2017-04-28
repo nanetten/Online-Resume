@@ -1,5 +1,3 @@
-
-
 // BIO
 bio.display = function() {
     var name = HTMLheaderName.replace("%data%", bio.name);
