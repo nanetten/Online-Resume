@@ -14,7 +14,7 @@ h6 {
     font-family: 'Amaranth', sans-serif;
 }
 body {
-  background-color: #EECD86;
+    background-color: #EECD86;
 }
 .clear-fix {
     overflow: auto;
@@ -29,25 +29,22 @@ h1 {
     color: #B95835;
     line-height: 48px;
     display: inline;
-      font-weight: bold;
+    font-weight: bold;
 }
 h2 {
     font-weight: bold;
     font-size: 28px;
-
     line-height: 29px;
     padding: 10px;
 }
 h3 {
     font-style: italic;
     font-size: 20px;
-
     line-height: 22px;
 }
 h4 {
     font-weight: bold;
     font-size: 14px;
-
     line-height: 17px;
 }
 h2,
@@ -80,7 +77,7 @@ a {
     text-decoration: none;
     margin-top: 10px;
     display: block;
-      font-weight: bold;
+    font-weight: bold;
 }
 .welcome-message {
     font-style: italic;
@@ -88,11 +85,8 @@ a {
     line-height: 28px;
 }
 #skills-h3 {
-
     display: none;
 }
-
-
 .white-text {
     font-weight: bold;
     color: #fff;
@@ -106,7 +100,6 @@ a {
     background-color: #4a4a4a;
 }
 /* TODO: Replace with image later */
-
 
 .flex-box {
     display: -webkit-flex;
@@ -147,9 +140,8 @@ span {
 }
 /* Custom*/
 
-
 img {
-  padding: 0;
+    padding: 0;
 }
 .orange-text {
     color: #E18942;
@@ -157,42 +149,39 @@ img {
 .oranger-text {
     color: #B95835;
 }
-
 .red-text {
-  color:  #7A3E48;
+    color: #7A3E48;
 }
 .red {
-    background-color:   #7A3E48;
+    background-color: #7A3E48;
 }
 .yellow {
     background-color: #EECD86;
 }
 .mate-text {
-  color: #3D3242;
+    color: #3D3242;
 }
-
 .orange {
-  background-color: #E18942;
+    background-color: #E18942;
 }
-
 .shadow {
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-#workExperience, #projects, #education, #mapDiv {
-  margin: 30px auto 30px;
-  padding: 20px;
-  max-width: 90%;
-  background-color: white;
+#workExperience,
+#projects,
+#education,
+#mapDiv {
+    margin: 30px auto 30px;
+    padding: 20px;
+    max-width: 90%;
+    background-color: white;
 }
-
 #header {
-  background-color:   #7A3E48;
+    background-color: #7A3E48;
 }
 #lets-connect {
-  background-color: #E18942;
-
+    background-color: #E18942;
 }
-
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
